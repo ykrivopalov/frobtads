@@ -1,3 +1,6 @@
+Just fork of [FrobTADS](https://github.com/realnc/frobtads) with hacks for telegram [bot](https://github.com/ykrivopalov/ifictionbot)
+
+
 FrobTADS - A portable TADS toolkit
 http://www.tads.org
 http://www.tads.org/frobtads.htm
