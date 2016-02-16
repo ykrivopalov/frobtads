@@ -42,6 +42,7 @@ Modified
 #include "regex.h"
 #include "res.h"
 #include "cmap.h"
+#include "osifc.h"
 
 
 /* yorn - yes or no */
@@ -73,6 +74,9 @@ void bifyon(bifcxdef *ctx, int argc)
 
     /* reset count of lines since the last keyboard input */
     tioreset(ctx->bifcxtio);
+
+    // always want to have new line before input
+    os_printz("\n");
 
     /* read a line of text */
     if (tiogets(ctx->bifcxtio, (char *)0, rsp, (int)sizeof(rsp)))

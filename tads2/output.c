@@ -3363,7 +3363,7 @@ void out_more_prompt()
      *   about what the prompt looks like.  
      */
 
-    os_more_prompt();
+    /* os_more_prompt(); */
 
 #endif /* USE_MORE */
 }
