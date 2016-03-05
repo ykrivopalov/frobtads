@@ -1,1 +1,1 @@
-./configure CFLAGS=-DUSE_OS_LINEWRAPS
+./configure CFLAGS=-DUSE_OS_LINEWRAP
